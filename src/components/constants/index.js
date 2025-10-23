@@ -15,3 +15,11 @@ export const navigation = [
         url: "#public-transport",
     },
 ];
+
+export const rides = [
+    {
+        id: "0",
+        title: "scooter",
+        image: ""
+    }
+];

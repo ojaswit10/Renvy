@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState("0");
 
   return (
-    <div className="fixed top-0 left-0 w-full bg-w-1">
+    <div className="fixed top-0 left-0 w-full bg-w-1 z-50">
       <div className="flex h-20 items-center justify-center px-10">
         <div className="w-[40%]">
           <a href="#hero" className="inline-block">
@@ -20,7 +20,7 @@ const Navbar = () => {
                 <a
                   href={item.url}
                   key={item.id}
-                  className={`block relative uppercase hover:text-red-6 mx-3 py-6 font-semibold text-[1rem] transition-colors duration-300 ${isOpen===item.id ? "text-red-5": ""}`}
+                  className={`block relative uppercase hover:text-red-7 mx-3 py-6 font-semibold text-[1rem] transition-colors duration-300 ${isOpen===item.id ? "text-red-5": ""}`}
                   onClick={() => setIsOpen(item.id)}
                 >
                   {item.title}
