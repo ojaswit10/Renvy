@@ -1,10 +1,11 @@
-import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import { Outlet } from "react-router-dom";
+
 function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navbar />
-      <Hero />
+      <Outlet />
     </div>
   );
 }
