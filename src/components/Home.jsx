@@ -3,19 +3,23 @@ import { background, bike, car, scooter, suv } from "../assets";
 
 const Hero = () => {
   return (
-    <div id="hero" className="pb-10">
+    <div id="hero" >
       <div className="container relative">
-        <div className="absolute flex flex-col justify-center items-center gap-10 top-[8rem] z-10">
-          <div className="font-bold text-[5rem] w-[60%] tracking-[-1%] leading-[120%]">
-            <h1>
-              Don't <span className="text-red-4">Envy</span> their trips,
-            </h1>
-            <h1 className="flex justify-center gap-5">
-              <span className="text-red-4 after:content-['_']">RENT</span>yours
-              !
-            </h1>
+        <div className="absolute flex flex-col w-[100vw] items-center gap-10 top-[8rem]">
+          <div className="font-bold text-[5rem] flex justify-center tracking-[-1%] leading-[120%]">
+            <div>
+              <h1>
+                Don't <span className="text-red-4">Envy</span> their trips,
+              </h1>
+              <div className="flex justify-center w-full">
+                <h1>
+                  <span className="text-red-4 after:content-['_']">RENT</span>yours
+                  !
+                </h1>
+              </div>
+            </div>
           </div>
-          <div className="w-[60%]">
+          <div className="flex justify-center w-[60%]">
             <p className="font-medium text-[1.25rem] tracking-[-1%] text-[#0000008A] leading-[164%]">
               With Renvy, forget juggling ten tabs — we compare{" "}
               <span className="text-red-4">Bhubaneswar’s</span> rental platforms

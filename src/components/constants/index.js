@@ -20,6 +20,7 @@ export const navigation = [
 
 export const publicRoutes = [
   {
+    id:"1",
     no: "9",
     from: "Bhubaneswar Railway Station",
     to: "Patia",
@@ -29,6 +30,7 @@ export const publicRoutes = [
     fare: "10-20",
   },
   {
+    id:"2",
     no: "33",
     from: "Bhubaneswar Railway Station",
     to: "Pipili",
@@ -38,6 +40,7 @@ export const publicRoutes = [
     fare: "15-25",
   },
   {
+    id:"3",
     no: "34",
     from: "Bhubaneswar Railway Station",
     to: "Balakati",
@@ -47,6 +50,7 @@ export const publicRoutes = [
     fare: "20-30",
   },
   {
+    id:"4",
     no: "50",
     from: "Bhubaneswar Railway Station",
     to: "Puri Bus Stand",
@@ -56,6 +60,7 @@ export const publicRoutes = [
     fare: "50-70",
   },
   {
+    id:"5",
     no: "34",
     from: "Bhubaneswar Railway Station",
     to: "Balakati",
@@ -65,6 +70,7 @@ export const publicRoutes = [
     fare: "20-30",
   },
   {
+    id:"6",
     no: "50",
     from: "Bhubaneswar Railway Station",
     to: "Puri Bus Stand",
