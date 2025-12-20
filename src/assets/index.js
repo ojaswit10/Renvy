@@ -5,6 +5,8 @@ import bike from "./bike.png";
 import car from "./car.png";
 import scooter from "./scooter.png";
 import suv from "./suv.png";
+import arrow from "./arrow.svg"
+
 export {
     renvy,
     background,
@@ -12,5 +14,6 @@ export {
     bike,
     car,
     scooter,
-    suv
+    suv,
+    arrow
 };

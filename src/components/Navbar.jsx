@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full bg-w-1 z-50 shadow-md">
+    <div className="fixed top-0 left-0 w-full bg-wh-1 z-50 shadow-md">
       <div className="container mx-auto">
         <div className="flex h-20 items-center justify-between px-5 md:px-8 xl:px-10">
           {/* Logo */}
@@ -56,10 +56,10 @@ const Navbar = () => {
 
           {/* Desktop Buttons */}
           <div className="hidden lg:flex items-center justify-end gap-2 xl:gap-3 font-semibold">
-            <button className="border-[2.5px] border-red-4 text-red-4 text-[0.7rem] xl:text-[0.75rem] px-4 xl:px-6 py-2.5 xl:py-3 rounded-[9px] cursor-pointer hover:bg-red-4 hover:text-w-1 transition-all duration-300 whitespace-nowrap">
+            <button className="border-[2.5px] border-red-4 text-red-4 text-[0.7rem] xl:text-[0.75rem] px-4 xl:px-6 py-2.5 xl:py-3 rounded-[9px] cursor-pointer hover:bg-red-4 hover:text-wh-1 transition-all duration-300 whitespace-nowrap">
               Sign Up
             </button>
-            <button className="border-[2.5px] border-red-4 bg-red-4 text-w-1 text-[0.7rem] xl:text-[0.75rem] px-4 xl:px-6 py-2.5 xl:py-3 rounded-[9px] cursor-pointer hover:bg-red-5 hover:border-red-5 transition-all duration-300 whitespace-nowrap">
+            <button className="border-[2.5px] border-red-4 bg-red-4 text-wh-1 text-[0.7rem] xl:text-[0.75rem] px-4 xl:px-6 py-2.5 xl:py-3 rounded-[9px] cursor-pointer hover:bg-red-5 hover:border-red-5 transition-all duration-300 whitespace-nowrap">
               Log In
             </button>
           </div>
@@ -90,7 +90,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden fixed top-20 left-0 right-0 bg-w-1 shadow-lg transition-all duration-300 ease-in-out ${
+        className={`lg:hidden fixed top-20 left-0 right-0 bg-wh-1 shadow-lg transition-all duration-300 ease-in-out ${
           isMobileMenuOpen
             ? "max-h-screen opacity-100"
             : "max-h-0 opacity-0 overflow-hidden"
@@ -116,10 +116,10 @@ const Navbar = () => {
 
           {/* Mobile Buttons */}
           <div className="flex flex-col gap-3 px-6 mt-4 pb-4">
-            <button className="border-[2.5px] border-red-4 text-red-4 text-[0.875rem] font-semibold py-3 rounded-[9px] cursor-pointer hover:bg-red-4 hover:text-w-1 transition-all duration-300">
+            <button className="border-[2.5px] border-red-4 text-red-4 text-[0.875rem] font-semibold py-3 rounded-[9px] cursor-pointer hover:bg-red-4 hover:text-wh-1 transition-all duration-300">
               Sign Up
             </button>
-            <button className="border-[2.5px] border-red-4 bg-red-4 text-w-1 text-[0.875rem] font-semibold py-3 rounded-[9px] cursor-pointer hover:bg-red-5 hover:border-red-5 transition-all duration-300">
+            <button className="border-[2.5px] border-red-4 bg-red-4 text-wh-1 text-[0.875rem] font-semibold py-3 rounded-[9px] cursor-pointer hover:bg-red-5 hover:border-red-5 transition-all duration-300">
               Log In
             </button>
           </div>

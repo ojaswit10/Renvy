@@ -1,5 +1,6 @@
 import React from "react";
 import { background, bike, car, scooter, suv } from "../assets";
+import PublicTransport from "./PublicTransport";
 
 const Hero = () => {
   return (
@@ -57,7 +58,7 @@ const Hero = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="bg-w-2 font-semibold text-xs md:text-sm rounded-full px-4 md:px-6 py-1.5 md:py-2 text-center group-hover:bg-red-4 group-hover:text-white transition-all duration-300">
+              <div className="bg-wh-2 font-semibold text-xs md:text-sm rounded-full px-4 md:px-6 py-1.5 md:py-2 text-center group-hover:bg-red-4 group-hover:text-white transition-all duration-300">
                 Scooter
               </div>
             </div>
@@ -71,7 +72,7 @@ const Hero = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="bg-w-2 font-semibold text-xs md:text-sm rounded-full px-4 md:px-6 py-1.5 md:py-2 text-center group-hover:bg-red-4 group-hover:text-white transition-all duration-300">
+              <div className="bg-wh-2 font-semibold text-xs md:text-sm rounded-full px-4 md:px-6 py-1.5 md:py-2 text-center group-hover:bg-red-4 group-hover:text-white transition-all duration-300">
                 Bikes
               </div>
             </div>
@@ -85,7 +86,7 @@ const Hero = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="bg-w-2 font-semibold text-xs md:text-sm rounded-full px-4 md:px-6 py-1.5 md:py-2 text-center group-hover:bg-red-4 group-hover:text-white transition-all duration-300">
+              <div className="bg-wh-2 font-semibold text-xs md:text-sm rounded-full px-4 md:px-6 py-1.5 md:py-2 text-center group-hover:bg-red-4 group-hover:text-white transition-all duration-300">
                 Cars
               </div>
             </div>
@@ -99,7 +100,7 @@ const Hero = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="bg-w-2 font-semibold text-xs md:text-sm rounded-full px-4 md:px-6 py-1.5 md:py-2 text-center group-hover:bg-red-4 group-hover:text-white transition-all duration-300">
+              <div className="bg-wh-2 font-semibold text-xs md:text-sm rounded-full px-4 md:px-6 py-1.5 md:py-2 text-center group-hover:bg-red-4 group-hover:text-white transition-all duration-300">
                 SUVs
               </div>
             </div>
