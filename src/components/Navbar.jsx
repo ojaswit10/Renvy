@@ -25,8 +25,10 @@ const Navbar = () => {
             </a>
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center justify-center flex-1">
+          {/* Desktop Buttons */}
+          <div className="hidden lg:flex items-center justify-end gap-2 xl:gap-3 font-semibold">
+              {/* Desktop Navigation */}
+          <nav className="hidden lg:flex items-center justify-center flex-1 px-8">
             <div className="relative flex items-center justify-center">
               {navigation.map((item) => (
                 <div key={item.id}>
@@ -53,15 +55,12 @@ const Navbar = () => {
               ))}
             </div>
           </nav>
-
-          {/* Desktop Buttons */}
-          <div className="hidden lg:flex items-center justify-end gap-2 xl:gap-3 font-semibold">
-            <button className="border-[2.5px] border-red-4 text-red-4 text-[0.7rem] xl:text-[0.75rem] px-4 xl:px-6 py-2.5 xl:py-3 rounded-[9px] cursor-pointer hover:bg-red-4 hover:text-wh-1 transition-all duration-300 whitespace-nowrap">
+            <a href="/signup" className="border-[2.5px] border-red-4 text-red-4 text-[0.7rem] xl:text-[0.75rem] px-4 xl:px-6 py-2.5 xl:py-3 rounded-[9px] cursor-pointer hover:bg-red-4 hover:text-wh-1 transition-all duration-300 whitespace-nowrap">
               Sign Up
-            </button>
-            <button className="border-[2.5px] border-red-4 bg-red-4 text-wh-1 text-[0.7rem] xl:text-[0.75rem] px-4 xl:px-6 py-2.5 xl:py-3 rounded-[9px] cursor-pointer hover:bg-red-5 hover:border-red-5 transition-all duration-300 whitespace-nowrap">
+            </a>
+            <a href="/signin" className="border-[2.5px] border-red-4 bg-red-4 text-wh-1 text-[0.7rem] xl:text-[0.75rem] px-4 xl:px-6 py-2.5 xl:py-3 rounded-[9px] cursor-pointer hover:bg-red-5 hover:border-red-5 transition-all duration-300 whitespace-nowrap">
               Log In
-            </button>
+            </a>
           </div>
 
         {/* Mobile Menu Button */}
