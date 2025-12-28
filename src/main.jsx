@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home.jsx";
 import PublicTransport from "./components/PublicTransport.jsx";
 import Categories from "./components/Categories.jsx";
+import Info from "./components/Info.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
         path: "public-transport",
         element: <PublicTransport />,
       },
+      {
+        path: "/info",
+        element: <Info/>
+      }
     ],
   },
 ]);
